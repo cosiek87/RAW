@@ -157,7 +157,7 @@ void tspectrum_coincidence_const_count()
 	for (Int_t i = 0; i < nentries; i++)
 	{
 		t_1->GetEntry(i);
-		if (w_zakresie_sigma(energia, channel, centroidy, sigmy, ile_sigma)) continue;
+		if (w_zakresie_sigma(energia, channel, centroidy, sigmy, ile_sigma)) continue;fa
 		if (channel > 5) continue;
 		if (channel % 2 == 0) continue;
 		if (channel < start_det || channel >= stop_det) continue;
